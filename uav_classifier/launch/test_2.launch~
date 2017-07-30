@@ -1,0 +1,9 @@
+<launch>
+  <!-- Multiple tensorflow nodes -->
+	<node name="class1" pkg="uav_classifier" type="image_recognition" output="screen">
+	</node>
+
+	<node name="class2" pkg="uav_classifier" type="image_recognition" output="screen">
+	</node>
+
+</launch>
